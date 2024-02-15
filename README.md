@@ -49,13 +49,13 @@ O código de exemplo a seguir demonstra a utilização do DartPad para a execuç
 void animateHelloWorld() {
   List<String> asciiArray = [
     r'''
-  _   _      _ _       __        __         _     _
- | | | | ___| | | ___   \ \      / /__  _ __| | __| |
- | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
- |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
- |_| |_|\___|_|_|\___( )   \_/\_/ \___/|_|  |_|\__,_|
-                   |/
- Exemplo de Código Dartpad
+ _   _      _ _        __        __         _     _
+| | | | ___| | | ___   \ \      / /__  _ __| | __| |
+| |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
+|  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
+|_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  |_|\__,_|
+
+Exemplo de Código Dartpad
     ''',
   ];
 
@@ -63,18 +63,54 @@ void animateHelloWorld() {
 }
 ```
 
-Resultado
+### Resultado do Código de Exemplo
 
 ```bash
 Connecting to VM Service at ws://127.0.0.1:50417/708Fqtz1hqU=/ws
-  _   _      _ _       __        __         _     _
- | | | | ___| | | ___   \ \      / /__  _ __| | __| |
- | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
- |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
- |_| |_|\___|_|_|\___( )   \_/\_/ \___/|_|  |_|\__,_|
-                   |/
- Exemplo de Código Dartpad
+ _   _      _ _        __        __         _     _
+| | | | ___| | | ___   \ \      / /__  _ __| | __| |
+| |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
+|  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
+|_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  |_|\__,_|
 
+Exemplo de Código Dartpad
+
+
+Exited.
+```
+
+## Código de Exemplo de Testes Unitários
+
+O código de exemplo a seguir demonstra a utilização do DartPad para a execução de testes unitários.
+
+```dart
+import 'package:flutter_test/flutter_test.dart';
+
+import '../bin/main.dart';
+
+void main() {
+  test('Teste da função helloWorld', () {
+    String expectedOutput = r'''
+ _   _      _ _        __        __         _     _
+| | | | ___| | | ___   \ \      / /__  _ __| | __| |
+| |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
+|  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
+|_| |_|\___|_|_|\___( )   \_/\_/ \___/|_|  |_|\__,_|
+                  |/
+Exemplo de Código Dartpad
+    ''';
+
+    expect(helloWorld(), equals(expectedOutput));
+  });
+}
+```
+
+### Resultado do teste
+
+```bash
+Connecting to VM Service at ws://127.0.0.1:51302/-t-Aa02w0qQ=/ws
+
+✓ Teste da função helloWorld
 
 Exited.
 ```
@@ -109,6 +145,13 @@ Ao adicionar este arquivo ao projeto é possível executar o código Dart direta
         ]
     }
 ```
+
+## Recomendações
+
+- Faça o Fork deste projeto para a sua conta
+- Clone o projeto para a sua máquina
+- Execute o código de exemplo para verificar o funcionamento do DartPad
+- Crie branches para novos testes e funcionalidades
 
 ## Licença
 
