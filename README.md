@@ -105,9 +105,21 @@ Exemplo de Código Dartpad
 }
 ```
 
+### Executando os testes
+
+Para executar os testes unitários, execute o comando `flutter test` no terminal.
+
+```bash
+    flutter test
+```
+
 ### Resultado do teste
 
 ```bash
+PS D:\DartPad> flutter test
+00:01 +1: All tests passed!
+PS D:\DartPad>
+
 Connecting to VM Service at ws://127.0.0.1:51302/-t-Aa02w0qQ=/ws
 
 ✓ Teste da função helloWorld
