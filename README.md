@@ -41,6 +41,44 @@ Necessário ter o Dart instalado na máquina. Para instalar o Dart, siga as inst
     ├── 🖹 pubspec.yaml
 ```
 
+## Código de Exemplo
+
+O código de exemplo a seguir demonstra a utilização do DartPad para a execução de código Dart diretamente no terminal.
+
+```dart
+void animateHelloWorld() {
+  List<String> asciiArray = [
+    r'''
+  _   _      _ _       __        __         _     _
+ | | | | ___| | | ___   \ \      / /__  _ __| | __| |
+ | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
+ |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
+ |_| |_|\___|_|_|\___( )   \_/\_/ \___/|_|  |_|\__,_|
+                   |/
+ Exemplo de Código Dartpad
+    ''',
+  ];
+
+  print(asciiArray[0]);
+}
+```
+
+Resultado
+
+```bash
+Connecting to VM Service at ws://127.0.0.1:50417/708Fqtz1hqU=/ws
+  _   _      _ _       __        __         _     _
+ | | | | ___| | | ___   \ \      / /__  _ __| | __| |
+ | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` |
+ |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |
+ |_| |_|\___|_|_|\___( )   \_/\_/ \___/|_|  |_|\__,_|
+                   |/
+ Exemplo de Código Dartpad
+
+
+Exited.
+```
+
 ## launcher.json
 
 O arquivo `launcher.json` é responsável por definir as configurações de execução do DartPad. Este arquivo é utilizado para definir as configurações de execução do DartPad, como por exemplo, a versão do Dart, as dependências do projeto, entre outras configurações.
