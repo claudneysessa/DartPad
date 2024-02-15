@@ -1,6 +1,6 @@
 # DartPad
 
-Este é um projeto em Dart que visa simular o Darpad localmente para estudos da linguagem Dart.
+Este é um projeto em Dart que visa simular o DarPad localmente para estudos da linguagem Dart.
 
 ## Versão do Dart
 
@@ -164,6 +164,36 @@ Ao adicionar este arquivo ao projeto é possível executar o código Dart direta
 - Clone o projeto para a sua máquina
 - Execute o código de exemplo para verificar o funcionamento do DartPad
 - Crie branches para novos testes e funcionalidades
+
+## Autor
+
+Projeto desenvolvido por Claudney Sarti Sessa
+
+<table>
+  <tr>
+    <td rowspan="5">
+      <img src="https://avatars.githubusercontent.com/u/12506432?v=4" alt="Claudney Sarti Sessa" style="border-radius: 50%; width: 150px; height: 150px;">
+    </td>
+    <td>GitHub</td>
+    <td><a href="https://github.com/claudneysessa">https://github.com/claudneysessa</a></td>
+  </tr>
+  <tr>
+    <td>GitHub Pages</td>
+    <td><a href="https://claudneysessa.github.io/">https://claudneysessa.github.io</a></td>
+  </tr>
+  <tr>
+    <td>Instagram</td>
+    <td><a href="https://www.instagram.com/claudneysessa/">https://www.instagram.com/claudneysessa</a></td>
+  </tr>
+  <tr>
+    <td>LinkedIn</td>
+    <td><a href="https://www.linkedin.com/in/claudneysessa/">https://www.linkedin.com/in/claudneysessa</a></td>
+  </tr>
+  <tr>
+    <td>Gmail</td>
+    <td><a href="mailto:claudneysartisessa@gmail.com">claudneysartisessa@gmail.com</a></td>
+  </tr>
+</table>
 
 ## Licença
 
